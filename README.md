@@ -30,3 +30,7 @@ use {
 ![galaxyline.nvim3](https://user-images.githubusercontent.com/42740055/110775093-de8c1500-82a1-11eb-81ad-321c377aab27.png)
 
 ### nvim-lua/completion-nvim
+![completion-nvim1](https://user-images.githubusercontent.com/42740055/110829794-dcdf4300-82db-11eb-9650-d905ab468633.png)
+![completion-nvim1](https://user-images.githubusercontent.com/42740055/110829801-dea90680-82db-11eb-890d-6aa6381c53d1.png)
+
+ cf. [VSCode IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)
