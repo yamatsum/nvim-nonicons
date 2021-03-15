@@ -6,6 +6,11 @@ end
 
 require "nvim-web-devicons".setup {
   override = {
+    ["default_icon"] = {
+      icon = get("file"),
+      color = "#6d8086",
+      name = "Default"
+    },
     -- ["gruntfile"] = {
     --   icon = "",
     --   color = "#e37933",
