@@ -1,8 +1,14 @@
 # nvim-nonicons
 
+Icon set for neovim plugins and settings.
 Collection of configurations for [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons).
 
 This repository is experimental and if there is demand, I'm going to create another plugin independent of nvim-web-devicons. 
+
+## Features
+- A familiar UI with the icons used on github
+- Not only file type, but also mode and completion icons are available
+- Easy-to-read design even with a small font size (16 x 16)
 
 ## Requirements
 
@@ -11,6 +17,9 @@ This repository is experimental and if there is demand, I'm going to create anot
 ## Installation
 
 ```lua
+use 'yamatsum/nvim-web-nonicons'
+
+-- if use nvim-web-devicons
 use {
   'yamatsum/nvim-web-nonicons',
   requires = {'kyazdani42/nvim-web-devicons'}
