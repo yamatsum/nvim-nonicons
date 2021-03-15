@@ -26,6 +26,13 @@ use {
 }
 ```
 
+## Usage
+```lua
+local icons = require "nvim-nonicons"
+
+icons.get("file")
+```
+
 ## Gallery
 ### nvim-telescope/telescope.nvim
 ![telescope.nvim](https://user-images.githubusercontent.com/42740055/110775102-dfbd4200-82a1-11eb-9393-64240026c761.png)
