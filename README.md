@@ -1,4 +1,4 @@
-# nvim-web-nonicons
+# nvim-nonicons
 
 Collection of configurations for [nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons).
 
