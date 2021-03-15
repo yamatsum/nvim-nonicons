@@ -27,6 +27,14 @@ use {
 ```
 
 ## Usage
+Set "non-ascii" font to nonicons in your favorite terminal settings.
+
+e.g.) [iTerm](https://iterm2.com/documentation-fonts.html)
+
+By using two fonts, you can use your favorite font as the main font.
+
+If the terminal can only use one font, you need to use the nonicons patched font.
+
 ```lua
 local icons = require "nvim-nonicons"
 
