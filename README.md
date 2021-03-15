@@ -33,4 +33,7 @@ use {
 ![completion-nvim1](https://user-images.githubusercontent.com/42740055/110829794-dcdf4300-82db-11eb-9650-d905ab468633.png)
 ![completion-nvim1](https://user-images.githubusercontent.com/42740055/110829801-dea90680-82db-11eb-890d-6aa6381c53d1.png)
 
- cf. [VSCode IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)
+ cf.
+ - [VSCode IntelliSense](https://code.visualstudio.com/docs/editor/intellisense)
+ - [Atomicons](https://github.com/atom/atom/pull/14657)
+
