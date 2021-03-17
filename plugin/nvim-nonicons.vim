@@ -5,6 +5,8 @@ set cpo&vim
 
 let g:nvim_nonicons = 1
 
+lua require('nvim-nonicons')
+
 let &cpo = s:save_cpo
 unlet s:save_cpo
 
