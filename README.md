@@ -17,11 +17,11 @@ This repository is experimental and if there is demand, I'm going to create anot
 ## Installation
 
 ```lua
-use 'yamatsum/nvim-web-nonicons'
+use 'yamatsum/nvim-nonicons'
 
 -- if use nvim-web-devicons
 use {
-  'yamatsum/nvim-web-nonicons',
+  'yamatsum/nvim-nonicons',
   requires = {'kyazdani42/nvim-web-devicons'}
 }
 ```
