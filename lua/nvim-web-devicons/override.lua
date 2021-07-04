@@ -206,11 +206,11 @@ require "nvim-web-devicons".setup {
       color = "#f34b7d",
       name = "CPlusPlus"
     },
-    -- ["cc"] = {
-    --   icon = "",
-    --   color = "#f34b7d",
-    --   name = "CPlusPlus"
-    -- },
+    ["cc"] = {
+      icon = get("c-plusplus"),
+      color = "#f34b7d",
+      name = "CPlusPlus"
+    },
     -- ["clj"] = {
     --   icon = "",
     --   color = "#8dc149",
