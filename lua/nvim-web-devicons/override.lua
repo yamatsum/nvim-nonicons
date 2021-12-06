@@ -61,11 +61,11 @@ devicons.set_icon {
   --   color = "#a074c4",
   --   name = "Procfile"
   -- },
-  -- ["svg"] = {
-  --   icon = "ﰟ",
-  --   color = "#FFB13B",
-  --   name = "Svg"
-  -- },
+  ["svg"] = {
+    icon = get("image"),
+    color = "#FFB13B",
+    name = "Svg"
+  },
   -- [".bashprofile"] = {
   --   icon = "",
   --   color = "#89e051",
@@ -341,11 +341,11 @@ devicons.set_icon {
   --   color = "#cbcb41",
   --   name = "Favicon"
   -- },
-  -- ["fish"] = {
-  --   icon = "",
-  --   color = "#4d5a5e",
-  --   name = "Fish"
-  -- },
+  ["fish"] = {
+    icon = get("terminal"),
+    color = "#4d5a5e",
+    name = "Fish"
+  },
   -- ["fs"] = {
   --   icon = "",
   --   color = "#519aba",
