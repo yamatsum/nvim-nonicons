@@ -581,15 +581,15 @@ devicons.set_icon({
     color = palette.bright_red,
     name = "NodeModules",
   },
-  ['package.json'] = {
+  ["package.json"] = {
     icon = get("npm"),
     color = palette.bright_red,
-    name = "PackageJson"
+    name = "PackageJson",
   },
-  ['package-lock.json'] = {
+  ["package-lock.json"] = {
     icon = get("npm"),
     color = palette.bright_red,
-    name = "PackageLockJson"
+    name = "PackageLockJson",
   },
   ["php"] = {
     icon = get("php"),
