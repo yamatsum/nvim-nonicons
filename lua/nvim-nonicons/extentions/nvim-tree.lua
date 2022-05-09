@@ -6,10 +6,10 @@ local function get(name)
   return vim.fn.nr2char(icons[name])
 end
 
-function M.setup(options)
+function M.setup()
   vim.g.nvim_tree_icons = {
     default = get("file"),
-    default = get("file-symlink-file"),
+    symlink = get("file-symlink-file"),
     folder = {
       default = get("file-directory-fill"),
       open = get("file-directory-open-fill"),

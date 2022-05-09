@@ -3,14 +3,21 @@ local M = {}
 local icons = require("nvim-nonicons.mapping")
 
 local DEFAULT_OPTIONS = {
-  override_devicons = true,
+  devicons = { override = true },
+  extentions = {
+    nvim_tree = { enable = false },
+  },
 }
 
 function M.setup(options)
   M.options = vim.tbl_deep_extend("force", DEFAULT_OPTIONS, options or {})
 
-  if M.options.override_devicons ~= false then
+  if M.options.devicons.override ~= false then
     require("nvim-web-devicons.override")
+  end
+
+  if M.options.extentions.nvim_tree.enable == true then
+    require("nvim-nonicons.extentions.nvim-tree.setup")
   end
 end
 
