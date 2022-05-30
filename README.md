@@ -80,7 +80,15 @@ require("telescope").setup({
 Suggested configuration
 
 ```lua
-require("nvim-nonicons.extentions.nvim-tree").setup()
+local nonicons_extention = require("nvim-nonicons.extentions.nvim-tree")
+
+require("nvim-tree").setup({
+  renderer = {
+    icons = {
+      glyphs = nonicons_extention.glyphs,
+    },
+  },
+})
 ```
 
 ### nvim-lualine/lualine.nvim
