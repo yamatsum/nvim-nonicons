@@ -7,9 +7,9 @@ local function get(name)
 end
 
 M.icons = {
-  server_installed = get("check") .. " ",
-  server_pending = get("sync") .. " ",
-  server_uninstalled = get("x") .. " ",
+  package_installed = get("check") .. " ",
+  package_pending = get("sync") .. " ",
+  package_uninstalled = get("x") .. " ",
 }
 
 return M
