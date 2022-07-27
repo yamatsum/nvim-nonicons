@@ -596,6 +596,11 @@ devicons.set_icon({
     color = palette.bright_red,
     name = "PackageLockJson",
   },
+  ["package.json"] = {
+    icon = get("package"),
+    color = "#E8274B",
+    name = "PackageJson"
+  },
   ["php"] = {
     icon = get("php"),
     color = palette.magenta,
