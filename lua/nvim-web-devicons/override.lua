@@ -636,6 +636,11 @@ devicons.set_icon({
   --   color = palette.bright_blue,
   --   name = "Psd"
   -- },
+  ["prisma"] = {
+    icon = get("database"),
+    color = "#dad8d8",
+    name = "Prisma"
+  },
   ["py"] = {
     icon = get("python"),
     color = palette.bright_blue,
