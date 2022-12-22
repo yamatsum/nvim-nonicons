@@ -47,7 +47,7 @@ If the terminal can only use one font, you need to use the nonicons patched font
 
 After installing the font, add the following line to your `kitty.conf` file:
 
-`symbol_map U+f101-U+f208 nonicons`
+`symbol_map U+f101-U+f25c nonicons`
 
 ```lua
 local icons = require "nvim-nonicons"
