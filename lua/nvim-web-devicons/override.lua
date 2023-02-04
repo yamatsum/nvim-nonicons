@@ -21,6 +21,7 @@ local palette = {
   bright_blue = "#79b8ff",
   magenta = "#b392f0",
   bright_magenta = "#b392f0",
+  purple = "#5F43E9",
   cyan = "#39c5cf",
   bright_cyan = "#56d4dd",
 }
@@ -831,6 +832,11 @@ devicons.set_icon({
     color = palette.bright_black,
     name = "Terminal",
   },
+  ["tf"] = {
+      icon = get("terraform"),
+      color = palette.purple,
+      name = "Terraform"
+  }
   -- ["pdf"] = {
   --   icon = "",
   --   color = "#b30b00",
