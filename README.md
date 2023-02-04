@@ -30,7 +30,7 @@ use {
 ## Usage
 
 ```lua
-require('nvim-cursorline').setup {}
+require('nvim-nonicons').setup {}
 ```
 
 ### iTerm
