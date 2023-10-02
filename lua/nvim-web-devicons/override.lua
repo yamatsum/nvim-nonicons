@@ -84,7 +84,7 @@ devicons.set_icon({
   ["svg"] = {
     icon = get("image"),
     color = "#FFB13B",
-    name = "Svg"
+    name = "Svg",
   },
   -- [".bashprofile"] = {
   --   icon = "",
@@ -226,6 +226,11 @@ devicons.set_icon({
     color = palette.bright_red,
     name = "CPlusPlus",
   },
+  ["cjs"] = {
+    icon = get("javascript"),
+    color = "#cbcb41",
+    name = "Js",
+  },
   -- ["clj"] = {
   --   icon = "",
   --   color = palette.bright_green,
@@ -356,15 +361,15 @@ devicons.set_icon({
   --   color = palette.bright_blue,
   --   name = "Fsharp"
   -- },
-  -- ["favicon.ico"] = {
-  --   icon = "",
-  --   color = palette.yellow,
-  --   name = "Favicon"
-  -- },
+  ["favicon.ico"] = {
+    icon = get("star-fill"),
+    color = "#cbcb41",
+    name = "Favicon",
+  },
   ["fish"] = {
     icon = get("terminal"),
     color = "#4d5a5e",
-    name = "Fish"
+    name = "Fish",
   },
   -- ["fs"] = {
   --   icon = "",
@@ -551,11 +556,11 @@ devicons.set_icon({
   --   color = palette.magenta,
   --   name = "MixLock"
   -- },
-  -- ["mjs"] = {
-  --   icon = "",
-  --   color = "#f1e05a",
-  --   name = "Mjs"
-  -- },
+  ["mjs"] = {
+    icon = get("javascript"),
+    color = "#cbcb41",
+    name = "Js",
+  },
   -- ["ml"] = {
   --   icon = "λ",
   --   color = "#e37933",
@@ -590,6 +595,11 @@ devicons.set_icon({
     icon = get("npm"),
     color = palette.bright_red,
     name = "PackageLockJson",
+  },
+  ["package.json"] = {
+    icon = get("package"),
+    color = "#E8274B",
+    name = "PackageJson"
   },
   ["php"] = {
     icon = get("php"),
@@ -631,6 +641,11 @@ devicons.set_icon({
   --   color = palette.bright_blue,
   --   name = "Psd"
   -- },
+  ["prisma"] = {
+    icon = get("database"),
+    color = "#dad8d8",
+    name = "Prisma"
+  },
   ["py"] = {
     icon = get("python"),
     color = palette.bright_blue,
